@@ -1,3 +1,4 @@
-name = "mcp-server"         # 好きな名前でOK
-main = "server.ts"          # ルートにある server.ts を指定
-compatibility_date = "2025-04-22"  # 今日の日付でOK
+name = "mcp-server"
+main = "server.ts"
+compatibility_date = "2025-04-22"
+compatibility_flags = ["nodejs_compat"]
