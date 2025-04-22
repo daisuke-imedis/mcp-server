@@ -1,4 +1,4 @@
-name = "mcp-server"
-main = "server.ts"
-compatibility_date = "2025-04-22"
-compatibility_flags = ["nodejs_compat"]
+name                = "mcp-server"
+main                = "server.ts"
+compatibility_date  = "2025-04-22"       # 今日の日付でOK
+compatibility_flags = ["nodejs_compat"]  # ← ← 重要
