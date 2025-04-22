@@ -74,3 +74,13 @@ main().catch((error) => {
   console.error("Fatal error in main():", error);
   process.exit(1);
 });
+export default {
+  /**
+   * Cloudflare Worker エントリーポイント
+   */
+  async fetch(request: Request, env: Record<string, unknown>, ctx: ExecutionContext) {
+    // 既存のロジックを呼び出したい場合はその関数をここで呼ぶ
+    // ひとまず OK レスポンスだけ返す例:
+    return new Response("OK", { status: 200 });
+  },
+};
